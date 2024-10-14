@@ -5,7 +5,8 @@ import TeamCard from '../TeamCard'
 
 import './index.css'
 
-const teamsApiUrl = 'https://apis.ccbp.in/ipl'
+// const teamsApiUrl = 'https://apis.ccbp.in/ipl'
+const teamsApiUrl = 'http://localhost:3002/getteams'
 
 class Home extends Component {
   state = {
