@@ -5,7 +5,6 @@ const app = express();
 const cors = require("cors");
 app.use(express.json());
 app.use(cors());
-
 const url = "mongodb+srv://suryateja1938102074:suryaamazonintern@cluster0.ldxadbe.mongodb.net/";
 const dbName = "IPL";
 
